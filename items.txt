@@ -1,0 +1,8 @@
+ox_inventory -> data -> items.lua
+
+	['mysterybox'] = {
+		label = 'Mysterybox',
+		weight = 450,
+		stack = false,
+		close = true,
+	},
