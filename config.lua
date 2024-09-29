@@ -1,5 +1,8 @@
 Config = {}
 
+-- Option to give all items or a random one
+Config.GiveAllItems = false -- Set to false if you want to use math.random to give one random item.
+
 Config.MysteryBoxItems = {
     -- Example format:
     -- ['item_name'] = { min = minimum_quantity, max = maximum_quantity }

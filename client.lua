@@ -7,6 +7,7 @@ RegisterNetEvent('mysterybox:openBox', function()
         useWhileDead = Config.ProgressBar.useWhileDead,
         canCancel = Config.ProgressBar.canCancel,
         anim = Config.ProgressBar.anim,
+        prop = Config.ProgressBar.prop,
         disable = Config.ProgressBar.disable
     }) then
         TriggerServerEvent('mysterybox:giveReward')
